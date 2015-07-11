@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		954B6AEF1B50E4AD00565605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B6AEE1B50E4AD00565605 /* AppDelegate.swift */; };
+		954B6AF11B50E4AE00565605 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954B6AF01B50E4AE00565605 /* Images.xcassets */; };
+		954B6AF41B50E4AE00565605 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954B6AF21B50E4AE00565605 /* MainMenu.xib */; };
+		954B6B001B50E4AE00565605 /* RGBWellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B6AFF1B50E4AE00565605 /* RGBWellTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		954B6AFA1B50E4AE00565605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 954B6AE11B50E4AD00565605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954B6AE81B50E4AD00565605;
+			remoteInfo = RGBWell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		954B6AE91B50E4AD00565605 /* RGBWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		954B6AED1B50E4AD00565605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954B6AEE1B50E4AD00565605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		954B6AF01B50E4AE00565605 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		954B6AF31B50E4AE00565605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		954B6AF91B50E4AE00565605 /* RGBWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		954B6AFE1B50E4AE00565605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954B6AFF1B50E4AE00565605 /* RGBWellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBWellTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		954B6AE61B50E4AD00565605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954B6AF61B50E4AE00565605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		954B6AE01B50E4AD00565605 = {
+			isa = PBXGroup;
+			children = (
+				954B6AEB1B50E4AD00565605 /* RGBWell */,
+				954B6AFC1B50E4AE00565605 /* RGBWellTests */,
+				954B6AEA1B50E4AD00565605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		954B6AEA1B50E4AD00565605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954B6AE91B50E4AD00565605 /* RGBWell.app */,
+				954B6AF91B50E4AE00565605 /* RGBWellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		954B6AEB1B50E4AD00565605 /* RGBWell */ = {
+			isa = PBXGroup;
+			children = (
+				954B6AEE1B50E4AD00565605 /* AppDelegate.swift */,
+				954B6AF01B50E4AE00565605 /* Images.xcassets */,
+				954B6AF21B50E4AE00565605 /* MainMenu.xib */,
+				954B6AEC1B50E4AD00565605 /* Supporting Files */,
+			);
+			path = RGBWell;
+			sourceTree = "<group>";
+		};
+		954B6AEC1B50E4AD00565605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				954B6AED1B50E4AD00565605 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		954B6AFC1B50E4AE00565605 /* RGBWellTests */ = {
+			isa = PBXGroup;
+			children = (
+				954B6AFF1B50E4AE00565605 /* RGBWellTests.swift */,
+				954B6AFD1B50E4AE00565605 /* Supporting Files */,
+			);
+			path = RGBWellTests;
+			sourceTree = "<group>";
+		};
+		954B6AFD1B50E4AE00565605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				954B6AFE1B50E4AE00565605 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		954B6AE81B50E4AD00565605 /* RGBWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954B6B031B50E4AE00565605 /* Build configuration list for PBXNativeTarget "RGBWell" */;
+			buildPhases = (
+				954B6AE51B50E4AD00565605 /* Sources */,
+				954B6AE61B50E4AD00565605 /* Frameworks */,
+				954B6AE71B50E4AD00565605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGBWell;
+			productName = RGBWell;
+			productReference = 954B6AE91B50E4AD00565605 /* RGBWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		954B6AF81B50E4AE00565605 /* RGBWellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954B6B061B50E4AE00565605 /* Build configuration list for PBXNativeTarget "RGBWellTests" */;
+			buildPhases = (
+				954B6AF51B50E4AE00565605 /* Sources */,
+				954B6AF61B50E4AE00565605 /* Frameworks */,
+				954B6AF71B50E4AE00565605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				954B6AFB1B50E4AE00565605 /* PBXTargetDependency */,
+			);
+			name = RGBWellTests;
+			productName = RGBWellTests;
+			productReference = 954B6AF91B50E4AE00565605 /* RGBWellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		954B6AE11B50E4AD00565605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = dnwin;
+				TargetAttributes = {
+					954B6AE81B50E4AD00565605 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					954B6AF81B50E4AE00565605 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 954B6AE81B50E4AD00565605;
+					};
+				};
+			};
+			buildConfigurationList = 954B6AE41B50E4AD00565605 /* Build configuration list for PBXProject "RGBWell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 954B6AE01B50E4AD00565605;
+			productRefGroup = 954B6AEA1B50E4AD00565605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				954B6AE81B50E4AD00565605 /* RGBWell */,
+				954B6AF81B50E4AE00565605 /* RGBWellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		954B6AE71B50E4AD00565605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954B6AF11B50E4AE00565605 /* Images.xcassets in Resources */,
+				954B6AF41B50E4AE00565605 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954B6AF71B50E4AE00565605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		954B6AE51B50E4AD00565605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954B6AEF1B50E4AD00565605 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954B6AF51B50E4AE00565605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954B6B001B50E4AE00565605 /* RGBWellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		954B6AFB1B50E4AE00565605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 954B6AE81B50E4AD00565605 /* RGBWell */;
+			targetProxy = 954B6AFA1B50E4AE00565605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		954B6AF21B50E4AE00565605 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954B6AF31B50E4AE00565605 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		954B6B011B50E4AE00565605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		954B6B021B50E4AE00565605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		954B6B041B50E4AE00565605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		954B6B051B50E4AE00565605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		954B6B071B50E4AE00565605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RGBWellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBWell.app/Contents/MacOS/RGBWell";
+			};
+			name = Debug;
+		};
+		954B6B081B50E4AE00565605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RGBWellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBWell.app/Contents/MacOS/RGBWell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		954B6AE41B50E4AD00565605 /* Build configuration list for PBXProject "RGBWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954B6B011B50E4AE00565605 /* Debug */,
+				954B6B021B50E4AE00565605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954B6B031B50E4AE00565605 /* Build configuration list for PBXNativeTarget "RGBWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954B6B041B50E4AE00565605 /* Debug */,
+				954B6B051B50E4AE00565605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		954B6B061B50E4AE00565605 /* Build configuration list for PBXNativeTarget "RGBWellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954B6B071B50E4AE00565605 /* Debug */,
+				954B6B081B50E4AE00565605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 954B6AE11B50E4AD00565605 /* Project object */;
+}
