@@ -11,6 +11,8 @@
 		954B6AF11B50E4AE00565605 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954B6AF01B50E4AE00565605 /* Images.xcassets */; };
 		954B6AF41B50E4AE00565605 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954B6AF21B50E4AE00565605 /* MainMenu.xib */; };
 		954B6B001B50E4AE00565605 /* RGBWellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B6AFF1B50E4AE00565605 /* RGBWellTests.swift */; };
+		954B6B0A1B50E4C700565605 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B6B091B50E4C700565605 /* MainWindowController.swift */; };
+		954B6B0C1B50E64B00565605 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954B6B0B1B50E64B00565605 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		954B6AF91B50E4AE00565605 /* RGBWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		954B6AFE1B50E4AE00565605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		954B6AFF1B50E4AE00565605 /* RGBWellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBWellTests.swift; sourceTree = "<group>"; };
+		954B6B091B50E4C700565605 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainWindowController.swift; path = ../MainWindowController.swift; sourceTree = "<group>"; };
+		954B6B0B1B50E64B00565605 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 		954B6AEB1B50E4AD00565605 /* RGBWell */ = {
 			isa = PBXGroup;
 			children = (
+				954B6B0B1B50E64B00565605 /* MainWindowController.xib */,
+				954B6B091B50E4C700565605 /* MainWindowController.swift */,
 				954B6AEE1B50E4AD00565605 /* AppDelegate.swift */,
 				954B6AF01B50E4AE00565605 /* Images.xcassets */,
 				954B6AF21B50E4AE00565605 /* MainMenu.xib */,
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				954B6AF11B50E4AE00565605 /* Images.xcassets in Resources */,
+				954B6B0C1B50E64B00565605 /* MainWindowController.xib in Resources */,
 				954B6AF41B50E4AE00565605 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				954B6B0A1B50E4C700565605 /* MainWindowController.swift in Sources */,
 				954B6AEF1B50E4AD00565605 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
