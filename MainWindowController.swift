@@ -30,9 +30,13 @@ class MainWindowController : NSWindowController {
         rSlider.doubleValue = r
         gSlider.doubleValue = g
         bSlider.doubleValue = b
+        
+        
+        let rSliderSelector = Selector("adjustRed:")
+        rSlider.action = rSliderSelector
     }
     
-    @IBAction func adjustRed(sender: NSSlider) {
+    func adjustRed(sender: NSSlider) {
         println("R slider's value is \(sender.floatValue)")
         r = sender.doubleValue
         updateColor()
